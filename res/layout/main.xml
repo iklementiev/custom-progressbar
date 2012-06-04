@@ -2,11 +2,12 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical" >     
     
     <LinearLayout
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content" 
+        >
         
         <ProgressBar 	         
 	        android:layout_height="50dp" 
@@ -32,11 +33,11 @@
 	    </ProgressBar>
         
     </LinearLayout>
-    
-   
+       
     <LinearLayout
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content" 
+        >
 	  	
 	  	<ProgressBar 
 	        android:indeterminateDrawable="@drawable/loader1_progress" 
@@ -61,6 +62,14 @@
 	        android:layout_height="50dp" 
 	        android:layout_width="50dp">       
 	    </ProgressBar>
-    
+
+	    
      </LinearLayout>
+     
+         <ProgressBar 
+	        android:indeterminateDrawable="@drawable/custom_progress" 
+	        android:layout_height="50dp" 
+	        android:layout_width="50dp">       
+	    </ProgressBar>
+	  
 </LinearLayout>
